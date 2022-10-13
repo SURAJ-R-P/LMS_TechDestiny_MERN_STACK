@@ -1,0 +1,32 @@
+a {
+    color: var(--bs-primary);
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+   color: #078571;
+   text-decoration: underline;
+}
+.navbar-light {
+   display: block;
+}
+.navbar-light .navbar-nav .nav-link {
+   padding: 20px 20px;
+   color: black;
+   font-weight: 500;
+   text-transform: uppercase;
+   outline: none;
+}
+.navbar-light .navbar-nav .nav-link i {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.dropdown-menu .dropdown-item{
+   text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active
+{
+ color: #0BCEAF;
+}
